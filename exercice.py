@@ -49,7 +49,7 @@ def get_number_of_words(sentence: str, word: str) -> int: #vérifier les symbole
     sentence_splited = sentence.split() #si on ne spécifie pas de caractère, ça utilise par défaut l'espace
                                         # -> retourne une liste
     for mot in sentence_splited:
-        if mot == word
+        if mot == word:
         num_words += 1
 
     return num_words
