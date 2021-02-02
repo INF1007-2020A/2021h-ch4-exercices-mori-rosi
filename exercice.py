@@ -14,8 +14,8 @@ def is_even_len(string: str) -> bool:
     """ if len(string) % 2 == 0:
         return True
 
-    return false """
-
+    return false 
+    """ 
 
 
 def remove_third_char(string: str) -> str:
@@ -45,11 +45,15 @@ def get_number_of_char(string: str, char: str) -> int: # sans utiliser .count
 
 def get_number_of_words(sentence: str, word: str) -> int:
     num_words = 0
-    sentence_splited = sentence.split(' ')
-    for i in sentence_splited:
+    sentence_splited = sentence.split() #si on ne spécifie pas de caractère, ça utilise par défaut l'espace
+                                        # -> retourne une liste
+    for mot in sentence_splited:
+        if mot == word
         num_words += 1
 
     return num_words
+
+# autre solution
 
 def main() -> None:
     chaine = "Bonjour!"
