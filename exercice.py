@@ -43,7 +43,8 @@ def get_number_of_char(string: str, char: str) -> int: # sans utiliser .count
     return num_char
 
 
-def get_number_of_words(sentence: str, word: str) -> int:
+def get_number_of_words(sentence: str, word: str) -> int: #vérifier les symboles de ponctuation (ou les enlever) pour le .split
+                                                          #et si un mot est contenu dans un autre (ne fonctionne pas pour le dernier caractère)
     num_words = 0
     sentence_splited = sentence.split() #si on ne spécifie pas de caractère, ça utilise par défaut l'espace
                                         # -> retourne une liste
