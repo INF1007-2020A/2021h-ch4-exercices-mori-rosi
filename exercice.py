@@ -50,7 +50,7 @@ def get_number_of_words(sentence: str, word: str) -> int: #vérifier les symbole
                                         # -> retourne une liste
     for mot in sentence_splited:
         if mot == word:
-        num_words += 1
+            num_words += 1
 
     return num_words
 
