@@ -48,7 +48,7 @@ class TestExercice(unittest.TestCase):
             answer,
             'Erreur dans le remplacement de caractère'
         )
-    
+
     def test_get_number_of_char(self):
         values = [
             ("aaaa123", "a"),
